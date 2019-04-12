@@ -1,0 +1,40 @@
+<!--<p>
+  hero works!
+</p>
+<p>
+  a:
+</p>
+<input type="text" [(ngModel)]="a">
+<p>
+  b:
+</p>
+<input type="text" [(ngModel)]="b">
+<button (click)="bind()">ok</button>-->
+<a>
+<input type="text" [(ngModel)]="a" style="width: 7.9%">
+</a><br>
+<a>
+  <input type="text" [(ngModel)]="b" style="width: 7.9%">
+</a><br>
+<a>
+  <input type="button"  value= 1 (click)="affiche(1)"> 
+  <input type="button"  value= 2 (click)="affiche(2)">
+  <input type="button"  value= 3 (click)="affiche(3)">
+  <input type="button"  value="-"(click)="affiche('-')">
+</a><br>
+<a>
+  <input type="button" value= 4 (click)="affiche(4)">
+  <input type="button" value= 5 (click)="affiche(5)">
+  <input type="button" value= 6 (click)="affiche(6)">
+  <input type="button" value="*" (click)="affiche('*')">
+</a><br>
+<a>
+  <input type="button" value= 7 (click)="affiche(7)">
+  <input type="button" value= 8 (click)="affiche(8)">
+  <input type="button" value= 9 (click)="affiche(9)">
+  <input type="button" value="/" (click)="affiche('/')">
+</a><br>
+<a>
+  <input type="button" style="width:4.2%" value="+" (click)="affiche('+')">
+  <input type="button" style="width:3.9%" value="=" (click)="calcule()">
+</a>
